@@ -1,0 +1,18 @@
+{
+  "homeserver": "https://m.bpventures.us",
+  "auto_join_room": "!TSWaGzECXKKEFuWmmn:m.bpventures.us",
+  "username_prefix": "bpvuser",
+  "header": {
+    "title": "BP Ventures",
+    "avatar": "https://m.bpventures.us/www/assets/logomark-blue.svg"
+  },
+  "footer": {
+    "chatterbox_link": "https://element.io/solutions/chatterbox-embedded-live-chat-for-customer-service",
+    "matrix_link": "https://matrix.org"
+  },
+  "token": "Ag71GT8v01UO3w80aqRPTeuVPBIBZkYhNTJJ-_-zQIc",
+  "invite_user": "",
+  "encrypt_room": false,
+  "avatar": "https://m.bpventures.us/www/assets/logomark-blue.svg",
+  "disable_composer_until_operator_join": false
+}

@@ -1,0 +1,22 @@
+name: Eslint
+concurrency: main
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Eslint
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.14.0
+      - run: npm install
+      - name: Eslint
+        run: npx eslint --max-warnings 0 --ext .ts --ext .tsx --ext .js --ext .jsx src/
+
+

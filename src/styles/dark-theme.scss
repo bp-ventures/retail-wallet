@@ -1,0 +1,97 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+@import "./colors.scss";
+
+body.dark {
+  $enable-gradients: false;
+  $primary: $primaryDark;
+  --primaryRGB: 255 194 105;
+
+  /* redefine theme colors for dark theme */
+  $secondary: white;
+  $success: green;
+  $dark: black;
+  $bg-health: #241705;
+  $bg-value: #231006;
+  $bg-lent: #1d100c;
+  $bg-TBD: #171213;
+
+  $theme-colors: (
+    "primary": $primaryDark,
+    "secondary": $secondary,
+    "success": $success,
+    "danger": $danger,
+    "info": $indigo,
+    "dark": $dark,
+    "light": white,
+  );
+
+  /* redefine theme color variables */
+  @each $color, $value in $theme-colors {
+    --#{$variable-prefix}#{$color}: #{$value};
+  }
+
+  $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+
+  @each $color, $value in $theme-colors-rgb {
+    --#{$variable-prefix}#{$color}-rgb: #{$value};
+  }
+
+  $body-color: #eeeeee;
+  $body-bg: #212529;
+  $input-bg: transparent;
+  $input-color: white;
+  $modal-content-bg: #0b0b0b;
+  $toast-background-color: black;
+  $toast-header-background-color: transparent;
+  $toast-header-color: white;
+  $toast-border-color: white;
+  $accordion-bg: rgba(0, 0, 0, 0.5);
+  $accordion-button-color: white;
+  $accordion-button-bg: rgba(0, 0, 0, 0.5);
+  $accordion-button-active-color: white;
+  $accordion-button-active-bg: black;
+  $accordion-button-focus-border-color: $primary;
+  $accordion-button-focus-box-shadow: 0 0 0 0.25rem #813d184a;
+  $accordion-button-active-icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>";
+  $form-range-thumb-bg: $primary;
+  $form-range-thumb-active-bg: rgba(129, 61, 24, 0.5);
+  $card-bg: #0f1011;
+  $nav-pills-link-active-bg: $primary;
+  $nav-pills-link-active-color: black;
+  $input-disabled-bg: #3d4144;
+  --#{$variable-prefix}body-color: #{$body-color};
+  --#{$variable-prefix}body-bg: #{$body-bg};
+
+  //dark model global css
+  //Dashboard Cards
+  .bg-health {
+    background-color: $bg-health !important;
+  }
+  .bg-value {
+    background-color: $bg-value !important;
+  }
+  .bg-lent {
+    background-color: $bg-lent !important;
+  }
+  .bg-TBD {
+    background-color: $bg-TBD !important;
+  }
+
+  .header-bg {
+    background-color: #161b22;
+  }
+  .color-primary {
+    color: var(--bs-body-color);
+  }
+
+  //Modal
+  .btn-close {
+    background: transparent
+      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/></svg>")
+      center/1em auto no-repeat !important;
+  }
+
+  @import "bootstrap";
+}

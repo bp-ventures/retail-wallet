@@ -1,0 +1,55 @@
+.chatterbox-iframe {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  border: none;
+  border-radius: 12px;
+  height: 0;
+  width: 0;
+  box-shadow: 0 1px 3px #0000001a, 0 14px 64px -10px #0003;
+  z-index: 1021;
+}
+@media (max-width: 800px) {
+  .chatterbox-iframe {
+    bottom: 0;
+    right: 0;
+  }
+}
+.start {
+  position: fixed;
+  right: 20px;
+  bottom: 15px;
+}
+.start-chat-btn {
+  width: 64px;
+  height: 64px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  background: no-repeat center url(/assets-chatterbox/chat-bubbles.be66ba17.svg),
+    linear-gradient(180deg, #7657f2 0%, #5c56f5 100%);
+  box-shadow: 0 1px 3px #0000001a, 0 12px 32px -2px #0003;
+}
+.start-background-minimized {
+  background: no-repeat center url(/assets-chatterbox/chevron-down-button.aaecfdc8.svg),
+    linear-gradient(180deg, #7657f2 0%, #5c56f5 100%);
+}
+.notification-badge {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  background-color: #ff5b55;
+  left: 47px;
+  bottom: 49px;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 2px #00000040;
+}
+.hidden {
+  display: none;
+}

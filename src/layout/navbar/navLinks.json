@@ -1,0 +1,18 @@
+[
+  {
+    "name": "navbar.dashboard",
+    "route": "/dashboard"
+  },
+  {
+    "name": "navbar.deposit_withdraw",
+    "route": "/transactions"
+  },
+  {
+    "name": "general.faqs",
+    "route": "/faqs"
+  },
+  {
+    "name": "navbar.audit",
+    "route": "/audit"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Binance",
+    "description": "The largest global Crypto Exchange supports USDC and seamless BUSD conversions..",
+    "url": "http://www.binance.com",
+    "supportEmail": "support@binance.com",
+    "icon": "/img/binance.svg",
+    "pubkey": "GAHK7EEG2WWHVKDNT4CEQFZGKF2LGDSW2IVM4S5DP42RBW3K6BTODB4A",
+    "supportedAssets": ["USDC"]
+  },
+  {
+    "name": "Liquid",
+    "description": "An Asian Crypto Exchange that supports USDC for Japan, Singapore, Europe SEPA, and World wide via Swift",
+    "url": "http://www.liquid.com",
+    "supportEmail": "support@liquid.com",
+    "icon": "/img/liquid.png",
+    "pubkey": "GDSKFYNMZWTB3V5AN26CEAQ27643Q3KB4X6MY4UTO2LIIDFND4SPQZYU",
+    "supportedAssets": ["USDC"]
+  },
+  {
+    "name": "Okcoin",
+    "description": "A crypto currency exchange that supports USD, EUR, SGD, and BRL and Bank Wires.",
+    "url": "https://www.okcoin.com/",
+    "supportEmail": "support@okcoin.com",
+    "icon": "/img/okcoin_dark.png",
+    "pubkey": "GDCDYZ42EOC4UBLKLOA6ZR5OSXL5WHLWAJLXJ7O646FQ5EMUG6IIAECE",
+    "supportedAssets": ["USDC"]
+  },
+  {
+    "name": "Mercadobitcoin",
+    "description": "The largest crypto currency exchange in Brazil",
+    "url": "https://www.mercadobitcoin.com.br/",
+    "supportEmail": "support@mercadobitcoin.com.br",
+    "icon": "/img/mercadobitcoin.png",
+    "pubkey": "GCFFCV3WBRVRFJM7EEIZRK2IQHLIMBIAADYUZ62J264FGETCUJKCL3RK",
+    "supportedAssets": ["USDC"]
+  }
+]

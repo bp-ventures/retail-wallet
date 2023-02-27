@@ -1,0 +1,14 @@
+[
+  {
+    "code": "op_underfunded",
+    "message": "messages.op_underfunded"
+  },
+  {
+    "code": "op_under_dest_min",
+    "message": "messages.op_under_dest_min"
+  },
+  {
+    "code": "op_low_reserve",
+    "message": "messages.op_low_reserve"
+  }
+]

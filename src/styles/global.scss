@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  // //colors
+  $primary: #813d18;
+  --primaryRGB: 129 61 24;
+  $bg-health: #faeddc;
+  $bg-value: #f9e7db;
+  $bg-lent: #f2e7e1;
+  $bg-TBD: #ede9ea;
+
+  //overriding global bootstrap variables
+  $disabled-color: red;
+
+  //colors end
+
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
+
+  .header-bg {
+    background-color: white;
+  }
+  .color-primary {
+    color: $primary;
+  }
+
+  .border-left-4-success {
+    border-left: 4px solid #3de401 !important;
+  }
+
+  .border-left-4-danger {
+    border-left: 4px solid red !important;
+  }
+
+  .container {
+    font-size: 0.85rem;
+  }
+
+  //Action btn dashboard tables
+  .action-btn {
+    outline-color: $primary;
+    border-color: $primary;
+    color: $primary;
+  }
+  .action-btn:hover {
+    background-color: $primary;
+    color: white;
+  }
+
+  .action-btn:active {
+    background-color: $primary;
+    color: white;
+    border-color: $primary;
+  }
+
+  .action-btn:focus {
+    box-shadow: 0 0 0 0.25rem rgb(var(--primaryRGB) / 50%);
+  }
+
+  .action-btn:not(:disabled):not(.disabled).active:focus,
+  .action-btn:not(:disabled):not(.disabled):active:focus,
+  .show > .action-btn.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgb(var(--primaryRGB) / 50%);
+  }
+
+  //react toggler
+  .react-toggle--checked .react-toggle-track {
+    background-color: black;
+  }
+
+  .react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
+    background-color: #413d3a;
+  }
+
+  .react-toggle--checked .react-toggle-thumb {
+    border-color: $primary;
+  }
+
+  .rotate-z-40 {
+    transform: rotateZ(40deg);
+  }
+  .border-primary {
+    border-color: $primary !important;
+  }
+  .dark-mode-toggle .react-toggle-track .react-toggle-track-check {
+    height: 2px;
+    left: 4px;
+  }
+
+  .dark-mode-toggle .react-toggle-track .react-toggle-track-x {
+    height: 1.5px;
+    right: 14px;
+  }
+
+  .react-toggle-custom.react-toggle--checked {
+    .react-toggle-track {
+      background-color: green !important;
+    }
+  }
+
+  .z-index-minus-1 {
+    z-index: -1;
+  }
+  .z-index-1 {
+    z-index: 1;
+  }
+  .bg-overlay {
+    /* background: linear-gradient(0deg, rgb(33 33 33 / 30%), rgb(0 0 0 / 30%)); */
+    --bs-bg-opacity: 0.5;
+    background-color: black;
+  }
+  .modal-list-item:hover {
+    background-color: rgb(var(--primaryRGB) / 10%);
+  }
+  .hover-primary:hover {
+    color: $primary !important;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .slippage-tolerance {
+    min-width: 34px;
+    max-width: 34px;
+  }
+  .toaster {
+    z-index: 2000 !important;
+  }
+
+  .custom-range::-webkit-slider-thumb {
+    background: $primary;
+  }
+
+  .custom-range::-moz-range-thumb {
+    background: $primary;
+  }
+
+  .custom-range::-ms-thumb {
+    background: $primary;
+  }
+  .custom-range::-webkit-slider-thumb:active {
+    background-color: rgb(var(--primaryRGB) / 50%);
+  }
+
+  .form-range:focus::-webkit-slider-thumb,
+  .form-range:focus::-webkit-slider-thumb,
+  .form-range:focus::-moz-range-thumb,
+  .form-range:focus::-ms-thumb {
+    box-shadow: red;
+    outline: 0 !important;
+  }
+
+  .bottom-point-5 {
+    bottom: 0.5px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .asset-icon {
+    min-width: 17px;
+    min-height: 17px;
+  }
+
+  .navbar-toggler {
+    padding: 0.2rem 0.6rem;
+  }
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+
+  .logo {
+    width: 62px;
+    height: 42px;
+    position: relative;
+  }
+
+  .bg-primary {
+    background-color: $primary !important;
+  }
+
+  .font-weight-normal {
+    font-weight: normal;
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: $primary;
+    background-color: #813d181c;
+  }
+  .sort-icon {
+    color: #90949a;
+  }
+  .toaster {
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 70%;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-left: $primary 5px solid;
+  }
+
+  .icon-sm {
+    width: 15px;
+    height: 15px;
+  }
+
+  .icon-xs {
+    width: 12px;
+    height: 12px;
+  }
+  .fnt-14 {
+    font-size: 14px;
+  }
+  .logout-icon {
+    width: 30px;
+    font-size: 24px;
+  }
+
+  .btn-primary,
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:visited,
+  .btn-primary:focus {
+    background-color: $primary;
+    border-color: $primary;
+  }
+
+  button:focus:not(:focus-visible) {
+    box-shadow: 0 0 0 0.25rem rgb(var(--primaryRGB) / 50%);
+  }
+  .btn-primary:not(:disabled):not(.disabled):active {
+    box-shadow: 0 0 0 0.25rem rgb(var(--primaryRGB) / 50%);
+  }
+
+  .connect-wallet-carkd:hover {
+    background-color: #ede8e9 !important;
+    transition: 0.3s;
+  }
+
+  div[role="dialog"][aria-modal="true"]:nth-last-child(1) {
+    z-index: 1125;
+  }
+  .modal-backdrop.show:nth-last-child(2) {
+    z-index: 1100;
+  }
+  div[role="dialog"][aria-modal="true"]:nth-last-child(3) {
+    z-index: 1075;
+  }
+  .modal-backdrop.show:nth-last-child(4) {
+    z-index: 1050;
+  }
+  div[role="dialog"][aria-modal="true"]:nth-last-child(5) {
+    z-index: 1025;
+  }
+  .modal-backdrop.show:nth-last-child(6) {
+    z-index: 1000;
+  }
+  //Dashboard Cards
+  .bg-health {
+    background-color: $bg-health !important;
+  }
+  .bg-value {
+    background-color: $bg-value !important;
+  }
+  .bg-lent {
+    background-color: $bg-lent !important;
+  }
+  .bg-TBD {
+    background-color: $bg-TBD !important;
+  }
+
+  /* Overwriting tabs css */
+  .nav-tabs .nav-link {
+    color: unset;
+  }
+  .nav-tabs .nav-item .active {
+    color: $primary;
+    font-weight: bold;
+  }
+  .nav-tabs button:focus:not(:focus-visible) {
+    box-shadow: unset;
+  }
+
+  @media (min-width: 321px) {
+    .asset-icon {
+      min-width: 30px;
+      min-height: 30px;
+    }
+  }
+
+  /*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+    .container {
+      font-size: var(--bs-body-font-size);
+    }
+    .logo {
+      width: 90px;
+      height: 60px;
+    }
+
+    .btn-md-lg {
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      border-radius: 0.25rem;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (min-width: 768px) {
+    .asset-icon {
+      min-width: 40px;
+      min-height: 40px;
+    }
+  }
+  @import "bootstrap";
+}

@@ -1,0 +1,554 @@
+[
+  {
+    "code": "CLPX",
+    "icon": "/img/clpx.png",
+    "issuer": "GDYSPBVZHPQTYMGSYNOHRZQNLB3ZWFVQ2F7EP7YBOLRGD42XIC3QUX5G",
+    "showOnDashboardByDefault": true,
+    "isOwnAsset": true,
+    "color": "#392C2E",
+    "market_size": "1M",
+    "interest_rate": "8",
+    "lock_months": "6m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep24": true,
+    "isShowTransactionsHistory": true,
+    "allow_deposit_without_trust": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "CLPX",
+          "anchor": "Stellar"
+        }
+      },
+      { "name": "Clpx.finance - Chile", "icon": "/img/clpx.png" }
+    ]
+  },
+  {
+    "code": "USDC",
+    "icon": "/img/usdc.png",
+    "issuer": "GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+    "showOnDashboardByDefault": true,
+    "color": "#E39F3D",
+    "interest_rate": "9",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep24": true,
+    "allow_deposit_without_trust": true,
+    "isShowTransactionsHistory": true,
+    "coin_gecko_id": "usd-coin",
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "USDC",
+          "anchor": "Stellar"
+        },
+        "homeDomain": "usdcswap.com"
+      },
+      {
+        "name": "Ultrastellar",
+        "icon": "/img/ultrastellar.png",
+        "description": "Supports deposits and withdrawals to Ethereum wallets via usdcswap.com",
+        "homeDomain": "usdcswap.com"
+      },
+      {
+        "name": "Stably",
+        "icon": "/img/stably.png",
+        "homeDomain": "polaris.stably.io",
+        "description": "Stably provides a borderless account with Wire, ACH, Card and Stablecoin support"
+      },
+      {
+        "name": "AqilPay",
+        "icon": "/img/aqil.png",
+        "description": "Deposit and withdraw in Somalia",
+        "homeDomain": "aqilpay.com"
+      },
+      {
+        "name": "Moneygram - Coming soon",
+        "icon": "/img/moneygram.png",
+        "description": "Deposit and withdraw via Moneygram - coming soon",
+        "homeDomain": "comingSoon"
+      }
+    ]
+  },
+  {
+    "code": "PEN",
+    "icon": "/img/pen.png",
+    "issuer": "GA4TDPNUCZPTOHB3TKUYMDCRVATXKEADH7ZEYEBWJKQKE2UBFCYNBPEN",
+    "color": "#cd0300",
+    "interest_rate": "0",
+    "lock_months": "6m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep24": true,
+    "isShowTransactionsHistory": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "PEN"
+        }
+      },
+      { "name": "Anclap.io - Peru", "icon": "/img/pen.png" }
+    ]
+  },
+  {
+    "code": "BRL",
+    "icon": "/img/brl.png",
+    "issuer": "GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP",
+    "color": "#019b29",
+    "market_size": "1M",
+    "interest_rate": "0",
+    "lock_months": "6m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep24": true,
+    "isShowTransactionsHistory": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "ETH"
+        }
+      },
+      { "name": "ntokens - Brazil", "icon": "/img/brl.png" }
+    ]
+  },
+  {
+    "code": "ARST",
+    "icon": "/img/arst.png",
+    "issuer": "GCSAZVWXZKWS4XS223M5F54H2B6XPIIXZZGP7KEAIU6YSL5HDRGCI3DG",
+    "color": "#74aade",
+    "market_size": "1M",
+    "interest_rate": "0",
+    "lock_months": "6m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep24": true,
+    "isShowTransactionsHistory": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "ETH"
+        }
+      },
+      { "name": "stablex.cloud - Argentina", "icon": "/img/arst.png" }
+    ]
+  },
+
+  {
+    "code": "BTCLN",
+    "icon": "/img/btcln.png",
+    "issuer": "GDPKQ2TSNJOFSEE7XSUXPWRP27H6GFGLWD7JCHNEYYWQVGFA543EVBVT",
+    "showOnDashboardByDefault": true,
+    "isOwnAsset": true,
+    "color": "#f79319",
+    "interest_rate": "0",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "coin_gecko_id": "bitcoin",
+    "coin_gecko_market_price_difference": "100000000",
+    "isSep24": true,
+    "isShowTransactionsHistory": true,
+    "allow_deposit_without_trust": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "ETH"
+        }
+      },
+      { "name": "kbtrading - Bitcoin Lightning", "icon": "/img/btcln.png" }
+    ]
+  },
+  {
+    "code": "XLM",
+    "icon": "/img/xlm.png",
+    "issuer": "native",
+    "showOnDashboardByDefault": true,
+    "color": "#7d00ff",
+    "interest_rate": "0",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "coin_gecko_id": "stellar",
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": { "eta": "1", "min_amount": "", "fee_fixed": "0.0001", "assetCode": "XLM" }
+      }
+    ]
+  },
+  {
+    "code": "BTC",
+    "icon": "/img/btc.png",
+    "issuer": "GDPJALI4AZKUU2W426U5WKMAT6CN3AJRPIIRYR2YM54TL2GDWO5O2MZM",
+    "color": "#813D17",
+    "isSep24": true,
+    "interest_rate": "5",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "isShowTransactionsHistory": true,
+    "hotWalletToQueryTransactions": "GDBWXSZDYO4C3EHYXRLCGU3NP55LUBEQO5K2RWIWWMXWVI57L7VUWSZA",
+    "isSep6": true,
+    "coin_gecko_id": "bitcoin",
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "ETH"
+        }
+      },
+      {
+        "name": "Ultrastellar",
+        "icon": "/img/ultrastellar-btc.png",
+        "description": "Ultrastellar provides wrapped versions of Ethereum and Bitcoin on the Stellar network",
+        "homeDomain": "ultrastellar.com"
+      }
+    ]
+  },
+  {
+    "code": "ETH",
+    "icon": "/img/eth.png",
+    "issuer": "GBFXOHVAS43OIWNIO7XLRJAHT3BICFEIKOJLZVXNT572MISM4CMGSOCC",
+    "showOnDashboardByDefault": true,
+    "isSep24": true,
+    "color": "#ceb1fb",
+    "interest_rate": "5",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep6": true,
+    "coin_gecko_id": "ethereum",
+    "network": "ethereum",
+    "isShowTransactionsHistory": true,
+    "hotWalletToQueryTransactions": "GDBWXSZDYO4C3EHYXRLCGU3NP55LUBEQO5K2RWIWWMXWVI57L7VUWSZA",
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "ETH"
+        }
+      },
+      {
+        "name": "Ultrastellar",
+        "icon": "/img/ultrastellar-eth.png",
+        "description": "Ultrastellar provides wrapped versions of Ethereum and Bitcoin on the Stellar network",
+        "homeDomain": "ultrastellar.com"
+      }
+    ]
+  },
+  {
+    "code": "KES",
+    "icon": "/img/kenya-flag.png",
+    "issuer": "GA2MSSZKJOU6RNL3EJKH3S5TB5CDYTFQFWRYFGUJVIN5I6AOIRTLUHTO",
+    "isOwnAsset": false,
+    "color": "#f79319",
+    "interest_rate": "0",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep24": true,
+    "isShowTransactionsHistory": true,
+    "allow_deposit_without_trust": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "KES"
+        }
+      },
+      {
+        "name": "Clickpesa",
+        "icon": "/img/clickpesa-icon.png",
+        "description": "ClickPesa offers a toolbox with payment solutions making it easier to receive and make payments for your business.",
+        "homeDomain": "connect.clickpesa.com"
+      }
+    ]
+  },
+  {
+    "code": "TZS",
+    "icon": "/img/tzs-flag.png",
+    "issuer": "GA2MSSZKJOU6RNL3EJKH3S5TB5CDYTFQFWRYFGUJVIN5I6AOIRTLUHTO",
+    "isOwnAsset": false,
+    "color": "#fddc01",
+    "interest_rate": "0",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep24": true,
+    "isShowTransactionsHistory": true,
+    "allow_deposit_without_trust": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "TZS"
+        }
+      },
+      {
+        "name": "Clickpesa",
+        "icon": "/img/clickpesa-icon.png",
+        "description": "ClickPesa offers a toolbox with payment solutions making it easier to receive and make payments for your business.",
+        "homeDomain": "connect.clickpesa.com"
+      }
+    ]
+  },
+  {
+    "code": "RWF",
+    "icon": "/img/rwf.png",
+    "issuer": "GA2MSSZKJOU6RNL3EJKH3S5TB5CDYTFQFWRYFGUJVIN5I6AOIRTLUHTO",
+    "isOwnAsset": false,
+    "color": "#fdec",
+    "interest_rate": "0",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep24": true,
+    "isShowTransactionsHistory": true,
+    "allow_deposit_without_trust": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "RWF"
+        }
+      },
+      {
+        "name": "Clickpesa",
+        "icon": "/img/clickpesa-icon.png",
+        "description": "ClickPesa offers a toolbox with payment solutions making it easier to receive and make payments for your business.",
+        "homeDomain": "connect.clickpesa.com"
+      }
+    ]
+  },
+  {
+    "code": "XRP",
+    "icon": "/img/xrp.png",
+    "issuer": "GBXRPL45NPHCVMFFAYZVUVFFVKSIZ362ZXFP7I2ETNQ3QKZMFLPRDTD5",
+    "coin_gecko_id": "ripple",
+    "isOwnAsset": false,
+    "color": "#0ed145",
+    "interest_rate": "0",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep6": true,
+    "isShowTransactionsHistory": true,
+    "allow_deposit_without_trust": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "XRP"
+        }
+      },
+      {
+        "name": "fchain",
+        "icon": "/img/fchain-logo.png",
+        "homeDomain": "fchain.io"
+      }
+    ]
+  },
+  {
+    "code": "NGNT",
+    "icon": "/img/ngnt.png",
+    "issuer": "GAWODAROMJ33V5YDFY3NPYTHVYQG7MJXVJ2ND3AOGIHYRWINES6ACCPD",
+    "isOwnAsset": false,
+    "color": "#179f4a",
+    "interest_rate": "0",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep6": true,
+    "isShowTransactionsHistory": true,
+    "allow_deposit_without_trust": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "XRP"
+        }
+      },
+      {
+        "name": "Cowrie",
+        "description": "Cowrie Integrated Systems is a fintech company that provides value added services over electronic payment networks",
+        "icon": "/img/ngnt.png",
+        "homeDomain": "cowrie.exchange"
+      }
+    ]
+  },
+  {
+    "code": "USDS",
+    "icon": "/img/USDS.svg",
+    "coin_gecko_id": "stableusd",
+    "issuer": "GBK4AYTOYIAYT4UJECSQGMACUWLKYOOM4VCAUUZ3Y3FG5XD2LYK3FGK2",
+    "isOwnAsset": false,
+    "color": "#7c489c",
+    "interest_rate": "0",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep24": true,
+    "isShowTransactionsHistory": true,
+    "allow_deposit_without_trust": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "USDS"
+        }
+      },
+      {
+        "name": "Stably",
+        "icon": "/img/stably.png",
+        "homeDomain": "polaris.stably.io",
+        "description": "Stably provides a borderless account with Wire, ACH, Card and Stablecoin support"
+      }
+    ]
+  },
+  {
+    "code": "MXN",
+    "icon": "/img/anchormxn-logo.png",
+    "issuer": "GCKIK5F6J4KMKF6MKB5EM67S5CK557EZQ3IAMZM5FFAYST63S3HWXVPE",
+    "isOwnAsset": false,
+    "color": "#002d57",
+    "interest_rate": "0",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep24": true,
+    "isShowTransactionsHistory": true,
+    "allow_deposit_without_trust": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "MXN"
+        }
+      },
+      {
+        "name": "Anchormxn",
+        "icon": "/img/anchormxn-logo.png",
+        "homeDomain": "anchormxn.com",
+        "description": "AnchorMXN develops a stable cryptocurrency backed one-for-one to the Mexican peso."
+      }
+    ]
+  },
+  {
+    "code": "CNY",
+    "icon": "/img/cny.png",
+    "issuer": "GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX",
+    "isOwnAsset": false,
+    "color": "#ff8508",
+    "interest_rate": "0",
+    "lock_months": "0m",
+    "lockable": false,
+    "type": "unlocked",
+    "isSep6": true,
+    "isShowTransactionsHistory": true,
+    "allow_deposit_without_trust": true,
+    "anchors": [
+      {
+        "name": "Stellar",
+        "icon": "/img/xlm.png",
+        "description": "Send with Stellar - an open network for money",
+        "stellarAnchorInfo": {
+          "eta": "1",
+          "min_amount": "",
+          "fee_fixed": "0.0001",
+          "assetCode": "MXN"
+        }
+      },
+      {
+        "name": "Ripplefox",
+        "icon": "/img/cny.png",
+        "homeDomain": "ripplefox.com"
+      }
+    ]
+  }
+]
